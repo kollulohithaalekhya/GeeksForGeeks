@@ -1,11 +1,7 @@
-#include <iostream>
-using namespace std;
+// User function Template for C++
 
-int main() {
-    double d;
-    cin >> d;
-    // Typecast and Print
-    int i = static_cast<int>(d); 
-    cout << i << endl;
-    return 0;
+int typeCast(double d) {
+
+    // code here
+     return static_cast<int>(d);
 }
