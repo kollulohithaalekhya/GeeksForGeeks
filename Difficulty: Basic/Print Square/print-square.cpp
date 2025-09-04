@@ -1,20 +1,20 @@
-// User function Template for C++
+#include <iostream>
+using namespace std;
 
-void square(int s) {
+int main() {
     // code here
-    for(int i=0;i<s;i++)
-    {
-        for(int j=0;j<s;j++)
-        {
-            if(i==0 || i==s-1 || j==0 || j==s-1)
-            {
-                cout<<"* ";
-            }
-            else
-            {
-                cout<<"  ";
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+             if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+                cout << "* ";
+            } else {
+                cout << "  ";
             }
         }
-        cout<<endl;
+        cout << endl;
     }
+
+    return 0;
 }
